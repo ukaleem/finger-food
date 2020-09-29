@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c1c1b</color>
+    <color name="colorPrimaryDark">#a7131f</color>
+    <color name="colorAccent">#fed75f</color>
+    <color name="colorBackground">#131312</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorPressed">#fed75f</color>
+    <color name="colorTextPressed">#000000</color>
+    <color name="colorCard">#252423</color>
+
+    <color name="overLayAdminPanelHeaderColor">#834</color>
+    <color name="overlayBackground">#7f333639</color> <!--Transparent color-->
+    <color name="transparent">#4F0E0D0E</color> <!--Transparent color-->
+    <color name="overlayActionBar">#0e0d0e</color>
+
+</resources>

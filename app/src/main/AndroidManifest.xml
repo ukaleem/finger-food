@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.example.aleemullah.fingerfood">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> <!-- Internet Permission -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:name=".VolleySingleton"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".userSection.OtherToppings">
+        </activity>
+        <activity android:name=".userSection.TotallBillView">
+        </activity>
+        <activity android:name=".adminSection.admin_pannel_order">
+        </activity>
+        <activity android:name=".userSection.SauceTopping">
+        </activity>
+        <activity android:name=".userSection.CustomizePizza">
+        </activity>
+        <activity android:name=".userSection.OurPizzaItems">
+        </activity>
+        <activity android:name=".userSection.SidesItems">
+        </activity>
+        <activity android:name=".userSection.QuickHome">
+        </activity>
+        <activity
+                android:name=".adminSection.admin_panel_home"
+                android:label="@string/title_activity_admin_panel_home"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".userSection.HomeScreen">
+        </activity>
+        <activity android:name=".userSection.LoginTable">
+        </activity>
+        <activity android:name=".adminSection.LoginActivity">
+        </activity>
+        <activity android:name=".userSection.TableHome">
+        </activity>
+        <activity android:name=".adminSection.AdminHomeActivity">
+        </activity>
+        <activity android:name=".userSection.GetStarted">
+        </activity>
+
+        <meta-data
+                android:name="preloaded_fonts"
+                android:resource="@array/preloaded_fonts"/>
+    </application>
+
+</manifest>

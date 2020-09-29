@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/back_ground"
+        tools:context=".userSection.QuickHome">
+    <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" app:srcCompat="@drawable/logo" android:id="@+id/sidelogo"-->
+            <!--app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"-->
+            <!--android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"-->
+            <!--android:layout_marginTop="8dp" android:layout_marginStart="8dp"/>-->
+
+    <!--<Button-->
+            <!--android:text="Sides"-->
+            <!--android:layout_width="391dp"-->
+            <!--android:layout_height="61dp" android:id="@+id/sides"-->
+            <!--app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="16dp"-->
+            <!--app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"-->
+            <!--android:layout_marginStart="16dp" android:layout_marginBottom="16dp"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="16dp"-->
+            <!--app:layout_constraintHorizontal_bias="0.519" app:layout_constraintVertical_bias="0.651"-->
+            <!--android:elevation="20dp" android:background="@drawable/button_selector"-->
+            <!--android:fontFamily="serif-monospace" android:typeface="sans" android:textSize="30sp"-->
+            <!--android:lineSpacingExtra="10sp" android:textAlignment="center" android:textStyle="bold"-->
+            <!--android:textColor="@color/button_color_selector"/>-->
+    <!--<Button-->
+            <!--android:text="OUR PIZZA"-->
+            <!--android:layout_width="399dp"-->
+            <!--android:layout_height="61dp" android:id="@+id/ourpizza"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/quickorder" android:layout_marginBottom="108dp"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"-->
+            <!--android:layout_marginEnd="16dp" app:layout_constraintStart_toStartOf="parent"-->
+            <!--android:layout_marginStart="16dp" app:layout_constraintVertical_bias="0.274" android:elevation="20dp"-->
+            <!--android:background="@drawable/button_selector" android:fontFamily="serif-monospace"-->
+            <!--android:typeface="sans" android:textSize="30sp" android:lineSpacingExtra="10sp" android:textStyle="bold"-->
+            <!--android:textAlignment="center" android:textColor="@color/button_color_selector"-->
+            <!--app:layout_constraintHorizontal_bias="0.526"/>-->
+
+    <ListView
+            android:layout_width="999dp"
+            android:layout_height="573dp" android:id="@+id/listViewId"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" tools:listitem="@layout/list_view_item"
+            app:layout_constraintHorizontal_bias="1.0" app:layout_constraintVertical_bias="0.0"/>
+
+    <Button
+            android:id="@+id/orderBtn"
+            android:layout_width="479dp"
+            android:layout_height="62dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="Order"
+            android:textColor="@color/colorText"
+            android:textSize="30sp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintVertical_bias="0.968" android:fontFamily="serif-monospace" android:typeface="serif"
+            android:lineSpacingExtra="10sp" android:textAlignment="center" android:textStyle="bold"
+    />
+
+</android.support.constraint.ConstraintLayout>
